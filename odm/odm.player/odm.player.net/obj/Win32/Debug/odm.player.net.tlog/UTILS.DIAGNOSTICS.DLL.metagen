@@ -1,0 +1,133 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly utils.diagnostics, Version=2.2.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Reactive.Linq, Version=2.0.20823.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly utils.linq, Version=2.2.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class utils.MemUsageStatistics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Double, Double, Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Tuple`2[System.Double,System.Double], Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double la : Public, InitOnly
+    Double lb : Public, InitOnly
+    Int64 min : Public, InitOnly
+    Int64 max : Public, InitOnly
+  Methods:
+    Collect(Action, Int32): PrivateScope, Public, Static, HideBySig
+    Validate(Action, Int32): PrivateScope, Public, Static, HideBySig
+    Validate(Func`2, Int32): PrivateScope, Public, Static, HideBySig
+    Collect(Func`2, Int32): PrivateScope, Public, Static, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class utils.SimpleLinearRegression: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Next(Double, Double): PrivateScope, Public, HideBySig
+    Next(Double): PrivateScope, Public, HideBySig
+    GetParameters(): PrivateScope, Public, HideBySig
+Class utils.ColorizedConsoleTraceListener: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Diagnostics.ConsoleTraceListener
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TraceData(TraceEventCache, String, TraceEventType, Int32, Object): PrivateScope, Public, Virtual, HideBySig
+    TraceData(TraceEventCache, String, TraceEventType, Int32, Object[]): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object[]): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32, String): PrivateScope, Public, Virtual, HideBySig
+Class utils.XmlSerializerNamespaceResolver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Xml.Serialization.XmlSerializerNamespaces): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Xml.IXmlNamespaceResolver
+  Methods:
+    GetNamespacesInScope(XmlNamespaceScope): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    LookupNamespace(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    LookupPrefix(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class utils.LogMessage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 id : Public
+    System.String source : Public
+    System.String message : Public
+    System.Diagnostics.TraceEventType eventType : Public
+    System.DateTime dateTime : Public
+    System.Diagnostics.TraceEventCache eventCache : Public
+  Methods:
+    EvalXPath(String, XmlSerializerNamespaces): PrivateScope, Public, HideBySig
+Class utils.ObservableTraceListener: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Diagnostics.TraceListener
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32, String): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object[]): PrivateScope, Public, Virtual, HideBySig
+    GetLogMessages(): PrivateScope, Public, Static, HideBySig
+    GetLogMessages(String): PrivateScope, Public, Static, HideBySig
+    Write(String): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(String): PrivateScope, Public, Virtual, HideBySig
+Class utils.dbg: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Warning(String): PrivateScope, Public, Static, HideBySig
+    Warning(String, String): PrivateScope, Public, Static, HideBySig
+    Error(String): PrivateScope, Public, Static, HideBySig
+    Error(String, String): PrivateScope, Public, Static, HideBySig
+    Error(Exception): PrivateScope, Public, Static, HideBySig
+    Error(Exception, String): PrivateScope, Public, Static, HideBySig
+    Assert(Boolean, String, String): PrivateScope, Public, Static, HideBySig
+    Assert(Boolean, String): PrivateScope, Public, Static, HideBySig
+    Assert(Boolean): PrivateScope, Public, Static, HideBySig
+    Info(String, String): PrivateScope, Public, Static, HideBySig
+    Info(String): PrivateScope, Public, Static, HideBySig
+    Break(): PrivateScope, Public, Static, HideBySig
+    BreakIf(Boolean): PrivateScope, Public, Static, HideBySig
+Class utils.dbg+AssertionFailureException: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Interface utils.ILogUtils: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.Diagnostics.TraceListenerCollection listeners 'get ' : 
+  Methods:
+    get_listeners(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    WriteEvent(String, String, TraceEventType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Flush(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Close(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class utils.LogUtilsBase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    utils.ILogUtils
+  Properties:
+    System.Guid activityId 'get ' : 
+    System.Diagnostics.TraceListenerCollection listeners 'get ' : 
+  Methods:
+    get_activityId(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_listeners(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    WriteEvent(String, String, TraceEventType): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Flush(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Close(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class utils.LogUtilsDefault: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :utils.LogUtilsBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Guid): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class utils.log: AutoLayout, AnsiClass, Class, Public
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Init(ILogUtils): PrivateScope, Public, Static, HideBySig
+    WriteEvent(String, String, TraceEventType): PrivateScope, Public, Static, HideBySig
+    WriteError(String, String): PrivateScope, Public, Static, HideBySig
+    WriteError(String): PrivateScope, Public, Static, HideBySig
+    WriteError(Exception): PrivateScope, Public, Static, HideBySig
+    WriteWarning(String, String): PrivateScope, Public, Static, HideBySig
+    WriteWarning(String): PrivateScope, Public, Static, HideBySig
+    WriteInfo(String, String): PrivateScope, Public, Static, HideBySig
+    WriteInfo(String): PrivateScope, Public, Static, HideBySig
+    Flush(): PrivateScope, Public, Static, HideBySig
+    Close(): PrivateScope, Public, Static, HideBySig

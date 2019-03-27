@@ -1,0 +1,25 @@
+﻿Build started 3/20/2019 8:49:26 PM.
+     1>Project "C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.net\odm.player.net.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/ffmpeg-git-a5c1a0c/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/liveMedia/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/UsageEnvironment/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/groupsock/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/BasicUsageEnvironment/include" /Iinclude /I../odm.player.lib/include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /clr /nologo /W3 /WX- /Ox /Os /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBONVIFMP_EXPORTS /D RTSPCLIENT_SYNCHRONOUS_INTERFACE /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Win32\Release\\" /Fd"obj\Win32\Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FUC:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Release\Net40\odm.player.media.dll /FUC:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Release\Net40\utils.common.dll /FUC:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.diagnostics\bin\Release\Net40\utils.diagnostics.dll /analyze- /errorReport:prompt /clr:nostdlib libapi.cpp
+         libapi.cpp
+     1>libapi.cpp(141): warning C4395: 'System::IntPtr::ToPointer' : member function will be invoked on a copy of the initonly data member 'odm::player::MappedData::scan0Ptr'
+     1>libapi.cpp(147): warning C4395: 'System::IntPtr::ToPointer' : member function will be invoked on a copy of the initonly data member 'odm::player::MappedData::signalPtr'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/ffmpeg-git-a5c1a0c/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/liveMedia/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/UsageEnvironment/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/groupsock/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/BasicUsageEnvironment/include" /Iinclude /I../odm.player.lib/include /clr /nologo /W3 /WX- /Ox /Os /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBONVIFMP_EXPORTS /D RTSPCLIENT_SYNCHRONOUS_INTERFACE /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Win32\Release\\" /Fd"obj\Win32\Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\linh\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Win32\Release\odm.player.net.res" Properties\odm.player.net.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win32\Release\odm.player.net.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/ffmpeg-git-a5c1a0c/Win32\lib" msvcrt.lib msvcprt.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib swscale.lib mscoree.lib msvcmrt.lib ws2_32.lib Rpcrt4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\Win32\Release\odm.player.net.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL obj\Win32\Release\odm.player.net.res
+         obj\Win32\Release\libapi.obj
+         "obj\Win32\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         "C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\bin\Win32\Release\live555.exe"
+         "C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.lib\bin\Win32\Release\odm-player.lib"
+         Generating code
+         Finished generating code
+         odm.player.net.vcxproj -> C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.net\bin\Win32\Release\odm.player.net.dll
+     1>Done Building Project "C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.net\odm.player.net.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.65

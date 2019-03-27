@@ -1,0 +1,11 @@
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\odm.player.media.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\odm.player.media.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\utils.common.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\utils.diagnostics.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\utils.linq.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\utils.common.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\utils.diagnostics.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net45\utils.linq.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\obj\Net45\Debug\odm.player.media.csprojResolveAssemblyReference.cache
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\obj\Net45\Debug\odm.player.media.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\obj\Net45\Debug\odm.player.media.pdb

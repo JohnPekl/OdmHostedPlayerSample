@@ -1,0 +1,15 @@
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.common.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.common.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\System.Reactive.Core.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\System.Reactive.Interfaces.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\System.Reactive.Linq.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.diagnostics.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.linq.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.diagnostics.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.linq.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\System.Reactive.Core.xml
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\System.Reactive.Interfaces.xml
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\System.Reactive.Linq.xml
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\obj\Net40\Debug\utils.common.csprojResolveAssemblyReference.cache
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\obj\Net40\Debug\utils.common.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\obj\Net40\Debug\utils.common.pdb

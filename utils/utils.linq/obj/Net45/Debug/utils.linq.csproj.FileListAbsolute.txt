@@ -1,0 +1,11 @@
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\utils.linq.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\utils.linq.pdb
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\System.Reactive.Core.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\System.Reactive.Interfaces.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\System.Reactive.Linq.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\System.Reactive.Core.xml
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\System.Reactive.Interfaces.xml
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\bin\Debug\Net45\System.Reactive.Linq.xml
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\obj\Net45\Debug\utils.linq.csprojResolveAssemblyReference.cache
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\obj\Net45\Debug\utils.linq.dll
+C:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.linq\obj\Net45\Debug\utils.linq.pdb

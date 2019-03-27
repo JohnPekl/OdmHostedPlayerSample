@@ -1,0 +1,85 @@
+﻿Build started 3/20/2019 8:52:03 PM.
+     1>Project "C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.net\odm.player.net.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/ffmpeg-git-a5c1a0c/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/liveMedia/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/UsageEnvironment/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/groupsock/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/BasicUsageEnvironment/include" /Iinclude /I../odm.player.lib/include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBONVIFMP_EXPORTS /D RTSPCLIENT_SYNCHRONOUS_INTERFACE /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Win32\Debug\\" /Fd"obj\Win32\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FUC:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.media\bin\Debug\Net40\odm.player.media.dll /FUC:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.common\bin\Debug\Net40\utils.common.dll /FUC:\Users\linh\Downloads\OdmHostedPlayerSample\utils\utils.diagnostics\bin\Debug\Net40\utils.diagnostics.dll /analyze- /errorReport:prompt /clr:nostdlib libapi.cpp
+         libapi.cpp
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\ffmpeg-git-a5c1a0c\include\libavutil\common.h(130): warning C4244: 'return' : conversion from 'int' to 'uint8_t', possible loss of data
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\ffmpeg-git-a5c1a0c\include\libavutil\common.h(141): warning C4244: 'return' : conversion from 'int' to 'int8_t', possible loss of data
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\ffmpeg-git-a5c1a0c\include\libavutil\common.h(152): warning C4244: 'return' : conversion from 'int' to 'uint16_t', possible loss of data
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\ffmpeg-git-a5c1a0c\include\libavutil\common.h(163): warning C4244: 'return' : conversion from 'int' to 'int16_t', possible loss of data
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\UsageEnvironment\include\UsageEnvironment.hh(98): warning C4512: 'UsageEnvironment' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\UsageEnvironment\include\UsageEnvironment.hh(53) : see declaration of 'UsageEnvironment'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\basicusageenvironment\include\BasicUsageEnvironment0.hh(66): warning C4512: 'BasicUsageEnvironment0' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\basicusageenvironment\include\BasicUsageEnvironment0.hh(39) : see declaration of 'BasicUsageEnvironment0'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\BasicUsageEnvironment\include\BasicUsageEnvironment.hh(44): warning C4512: 'BasicUsageEnvironment' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\BasicUsageEnvironment\include\BasicUsageEnvironment.hh(27) : see declaration of 'BasicUsageEnvironment'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\Media.hh(86): warning C4512: 'Medium' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\Media.hh(50) : see declaration of 'Medium'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\Media.hh(116): warning C4512: 'MediaLookupTable' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\Media.hh(92) : see declaration of 'MediaLookupTable'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\Media.hh(136): warning C4512: '_Tables' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\Media.hh(120) : see declaration of '_Tables'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\MediaSource.hh(55): warning C4512: 'MediaSource' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\MediaSource.hh(28) : see declaration of 'MediaSource'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\FramedSource.hh(92): warning C4512: 'FramedSource' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\FramedSource.hh(31) : see declaration of 'FramedSource'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSink.hh(67): warning C4512: 'MediaSink' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSink.hh(28) : see declaration of 'MediaSink'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\groupsock\include\NetAddress.hh(81): warning C4512: 'NetAddressList::Iterator' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\groupsock\include\NetAddress.hh(74) : see declaration of 'NetAddressList::Iterator'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\groupsock\include\NetInterface.hh(108): warning C4512: 'Socket' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\groupsock\include\NetInterface.hh(80) : see declaration of 'Socket'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\groupsock\include\Groupsock.hh(60): warning C4512: 'OutputSocket' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\groupsock\include\Groupsock.hh(39) : see declaration of 'OutputSocket'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\groupsock\include\Groupsock.hh(156): warning C4512: 'Groupsock' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\groupsock\include\Groupsock.hh(78) : see declaration of 'Groupsock'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSink.hh(124): warning C4512: 'RTPSink' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSink.hh(33) : see declaration of 'RTPSink'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSink.hh(168): warning C4512: 'RTPTransmissionStatsDB' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSink.hh(129) : see declaration of 'RTPTransmissionStatsDB'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSink.hh(223): warning C4512: 'RTPTransmissionStats' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSink.hh(170) : see declaration of 'RTPTransmissionStats'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSource.hh(110): warning C4512: 'RTPSource' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTPSource.hh(33) : see declaration of 'RTPSource'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTCP.hh(181): warning C4512: 'RTCPInstance' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\RTCP.hh(44) : see declaration of 'RTCPInstance'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\FramedFilter.hh(50): warning C4512: 'FramedFilter' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\FramedFilter.hh(28) : see declaration of 'FramedFilter'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSession.hh(137): warning C4512: 'MediaSession' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSession.hh(58) : see declaration of 'MediaSession'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSession.hh(151): warning C4512: 'MediaSubsessionIterator' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSession.hh(140) : see declaration of 'MediaSubsessionIterator'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSession.hh(346): warning C4512: 'MediaSubsession' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\MediaSession.hh(154) : see declaration of 'MediaSubsession'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\RTSPClient.hh(369): warning C4512: 'RTSPClient' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\RTSPClient.hh(34) : see declaration of 'RTSPClient'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\AVIFileSink.hh(113): warning C4512: 'AVIFileSink' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\AVIFileSink.hh(28) : see declaration of 'AVIFileSink'
+     1>c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\MultiFramedRTPSource.hh(79): warning C4512: 'MultiFramedRTPSource' : assignment operator could not be generated
+                 c:\users\linh\downloads\odmhostedplayersample\libs\live555-2013.02.11\livemedia\include\MultiFramedRTPSource.hh(32) : see declaration of 'MultiFramedRTPSource'
+     1>C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\H264VideoRTPSource.hh(52): warning C4512: 'H264VideoRTPSource' : assignment operator could not be generated
+                 C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\liveMedia\include\H264VideoRTPSource.hh(28) : see declaration of 'H264VideoRTPSource'
+     1>libapi.cpp(141): warning C4395: 'System::IntPtr::ToPointer' : member function will be invoked on a copy of the initonly data member 'odm::player::MappedData::scan0Ptr'
+     1>libapi.cpp(147): warning C4395: 'System::IntPtr::ToPointer' : member function will be invoked on a copy of the initonly data member 'odm::player::MappedData::signalPtr'
+     1>libapi.cpp(210): warning C4564: method '.ctor' of class 'odm::player::MediaStreamInfo' defines unsupported default parameter 'transport'
+                 Specify value '0' explicitly when calling the method
+                 This diagnostic occurred while importing type 'odm::player::MediaStreamInfo ' from assembly 'odm.player.media, Version=2.2.207.0, Culture=neutral, PublicKeyToken=null'.
+     1>libapi.cpp(210): warning C4564: method '.ctor' of class 'odm::player::MediaStreamInfo' defines unsupported default parameter 'userNameToken'
+                 Specify value '0' explicitly when calling the method
+                 This diagnostic occurred while importing type 'odm::player::MediaStreamInfo ' from assembly 'odm.player.media, Version=2.2.207.0, Culture=neutral, PublicKeyToken=null'.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/ffmpeg-git-a5c1a0c/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/liveMedia/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/UsageEnvironment/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/groupsock/include" /I"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/live555-2013.02.11/BasicUsageEnvironment/include" /Iinclude /I../odm.player.lib/include /Zi /clr /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBONVIFMP_EXPORTS /D RTSPCLIENT_SYNCHRONOUS_INTERFACE /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Win32\Debug\\" /Fd"obj\Win32\Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\linh\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Win32\Debug\odm.player.net.res" Properties\odm.player.net.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win32\Debug\odm.player.net.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\linh\Downloads\OdmHostedPlayerSample\libs/ffmpeg-git-a5c1a0c/Win32\lib" msvcrtd.lib msvcprtd.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib swscale.lib mscoree.lib msvcmrt.lib ws2_32.lib Rpcrt4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Win32\Debug\odm.player.net.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL obj\Win32\Debug\odm.player.net.res
+         obj\Win32\Debug\libapi.obj
+         "obj\Win32\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         "C:\Users\linh\Downloads\OdmHostedPlayerSample\libs\live555-2013.02.11\bin\Win32\Debug\live555.exe"
+         "C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.lib\bin\Win32\Debug\odm-player.lib"
+         odm.player.net.vcxproj -> C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.net\bin\Win32\Debug\odm.player.net.dll
+     1>Done Building Project "C:\Users\linh\Downloads\OdmHostedPlayerSample\odm\odm.player\odm.player.net\odm.player.net.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82
